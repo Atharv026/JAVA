@@ -9,7 +9,7 @@ public class powerbase {
         int exponent=sc.nextInt();
     int power=1;
         for(int i=1;i<=exponent;i++){
-            power *= base;
+            power = base * power;
 
         }
         System.out.println(power);
@@ -17,10 +17,3 @@ public class powerbase {
     }
     
 }
-
-
-/*enter the base
-3
-enter the exponent
-4
-81 */
